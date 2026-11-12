@@ -46,7 +46,7 @@ Triggered an MDM policy sync on `TESTUSER-1` and confirmed that Intune rotated t
 ### 4. Compiling `.intunewin` Package via `IntuneWinAppUtil.exe`
 Used the Microsoft Win32 Content Prep Tool (`IntuneWinAppUtil.exe`) to compress, SHA-256 hash, and encrypt `7z2606-x64.exe` into `7z2606-x64.intunewin`.
 
-![IntuneWinAppUtil Packaging](02-Win32-App-Packaging/04-intunewin-packaging-cli.jpg)
+![IntuneWinAppUtil Packaging](02-Win32-App-Packaging/04-intunewin-packaging-cli.png)
 
 ### 5. Silent Install/Uninstall Program Configuration
 Configured the Win32 application in Microsoft Intune to execute unattended under the `System` context:
